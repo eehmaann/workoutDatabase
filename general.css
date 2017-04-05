@@ -1,0 +1,67 @@
+<style type="text/css">
+
+/* ###### Body Text ###### */
+
+body {
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+a {
+	background-color:green;
+	color: white;
+	} /* links - dark blue */
+a:hover { font-weight: bold;
+			background-color: black;
+} /* links - dark purple */
+
+h1, h2 {
+  color: white;
+  background-color: Green;
+}
+.aform{
+border: solid thick green;
+}
+
+.required {
+  color:  #ff0000; /* red */
+  font-size:  smaller;
+}
+
+}
+nav ul li{
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	}
+td{
+	border: thin solid black;
+	text-align: center;
+	padding: 2px;
+}
+tr:nth-child(even){
+	background-color: #f7f5de
+}
+
+.mapping ul{
+	list-style-type: none;
+	padding: 5px;
+	margin: 5px;
+}
+.mapping ul li:first-child{
+	font-weight:bold;
+	font-size: 1.1em;
+	text-decoration:underline;
+	padding-left:5px;
+	margin-left:5px;
+}
+
+.mapping ul li{
+	padding-left:10px;
+	margin-left:10px;
+}
+	
+</style>
+
